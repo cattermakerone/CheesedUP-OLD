@@ -1,0 +1,10 @@
+image_speed = 0.35;
+visited = false;
+targetRoom = room;
+targetDoor = "A";
+savedposition = false;
+savedx = 0;
+savedy = 0;
+group_arr = -4;
+offload_arr = -4;
+compatibility = false; // old rooms that still use target_x and target_y

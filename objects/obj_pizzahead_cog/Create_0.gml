@@ -1,0 +1,16 @@
+image_speed = 0;
+depth = -1;
+sound_play_3d("event:/sfx/enemies/projectile", x, y);
+snd = sound_create_instance("event:/sfx/pizzahead/cog");
+hsp = 0;
+vsp = 0;
+hsp_carry = 0;
+vsp_carry = 0;
+grav = 0.5;
+platformid = -4;
+grounded = false;
+landed = false;
+alarm[0] = 10;
+bullethit = 3;
+flash = false;
+flashbuffer = 0;
